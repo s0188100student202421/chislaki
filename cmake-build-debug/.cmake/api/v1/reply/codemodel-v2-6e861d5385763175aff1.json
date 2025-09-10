@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chislaki",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "zadacha1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadacha1-Debug-b229711cb0c6f837070e.json",
+					"name" : "zadacha1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadacha2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadacha2-Debug-21ff39425671e6c1493a.json",
+					"name" : "zadacha2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadacha3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadacha3-Debug-ba764f6871cffcbe6e3a.json",
+					"name" : "zadacha3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kovoya/CLionProjects/chislaki/cmake-build-debug",
+		"source" : "/home/kovoya/CLionProjects/chislaki"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
