@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
+#include <sstream>
 using namespace std;
 /*
  * 4 -5 7
@@ -12,9 +13,6 @@ using namespace std;
 5 -1 2 1
 1 3 -1 -1 (-67)
 
-1 -2 3 5
-10 2 -1 3
-8 6 -7 -7(неквадратная)
  */
 
 const double INT_MIN = 1e-12;
@@ -71,9 +69,15 @@ int main(){
 
     vector<vector<double>> A(n, vector<double>(n));
     cout << "Введите матрицу A:\n";
-    for (int i = 0; i < n; ++i) {
-        int a; cin >> a;
-        A[i].push_back(a);
+    for (int i = 0; i < n; i++) {
+        std::string line;
+        std::getline(cin >> std::ws, line);
+        std::stringstream ss(line);
+
+        double val;
+        while (ss >> val) {
+            A[i].push_back(val);
+        }
     }
     cout << endl;
     double det  = determinantGaussian(A);

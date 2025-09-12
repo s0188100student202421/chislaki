@@ -2,6 +2,7 @@
 #include <vector>
 #include <cmath>
 #include <stdexcept>
+#include <iomanip>
 
 using namespace std;
 
@@ -142,13 +143,17 @@ vector<double> readVector(int n) {
     return b;
 }
 
-void printVector(const vector<double> &v, const string &label) {
+void printVector(const vector<double> &v, const string &label, int precision = 4) {
     cout << label << "\n";
+    cout << fixed << setprecision(precision);
     for (double x : v) cout << x << "\t";
     cout << "\n";
+    cout.unsetf(ios::fixed);
 }
 
+
 int main() {
+    int precision = 5;
     int n;
     cout << "Введите размерность системы n:\n";
     cin >> n;
@@ -162,15 +167,15 @@ int main() {
             cout << A[i][j] << " ";
         cout << "\n";
     }
-    printVector(b, "Вектор b:");
+    printVector(b, "Вектор b:",precision);
 
     auto x_col = GaussColumn(A, b);
     auto x_row = GaussRow(A, b);
     auto x_mat = GaussMatrix(A, b);
 
-    printVector(x_col, "Решение (выбор по столбцу):");
-    printVector(x_row, "Решение (выбор по строке):");
-    printVector(x_mat, "Решение (полный выбор):");
+    printVector(x_col, "Решение (выбор по столбцу):",precision);
+    printVector(x_row, "Решение (выбор по строке):",precision);
+    printVector(x_mat, "Решение (полный выбор):",precision);
 
     return 0;
 }
