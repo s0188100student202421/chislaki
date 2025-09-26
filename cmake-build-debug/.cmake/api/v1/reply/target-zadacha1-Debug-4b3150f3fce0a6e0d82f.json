@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "zadacha3"
+			"path" : "zadacha1"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "zadacha3::@6890427a1f51a3e7e1df",
+	"id" : "zadacha1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "zadacha3",
-	"nameOnDisk" : "zadacha3",
+	"name" : "zadacha1",
+	"nameOnDisk" : "zadacha1",
 	"paths" : 
 	{
 		"build" : ".",
@@ -84,6 +84,13 @@
 			[
 				0
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"sources" : 
@@ -91,8 +98,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "zadacha3.cpp",
+			"path" : "zadacha1.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "zadacha1.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

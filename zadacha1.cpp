@@ -1,9 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <cmath>
-#include <stdexcept>
-#include <iomanip>
-
+#include "zadacha1.h"
 using namespace std;
 
 vector<double> GaussColumn(vector<vector<double>> A,  vector<double> b){
