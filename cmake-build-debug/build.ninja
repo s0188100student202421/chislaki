@@ -55,6 +55,12 @@ build CMakeFiles/zadacha1.dir/zadacha1.cpp.o: CXX_COMPILER__zadacha1_unscanned_D
   OBJECT_DIR = CMakeFiles/zadacha1.dir
   OBJECT_FILE_DIR = CMakeFiles/zadacha1.dir
 
+build CMakeFiles/zadacha1.dir/zadacha5.cpp.o: CXX_COMPILER__zadacha1_unscanned_Debug /home/kovoya/CLionProjects/chislaki/zadacha5.cpp || cmake_object_order_depends_target_zadacha1
+  DEP_FILE = CMakeFiles/zadacha1.dir/zadacha5.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/zadacha1.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadacha1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target zadacha1
@@ -63,7 +69,7 @@ build CMakeFiles/zadacha1.dir/zadacha1.cpp.o: CXX_COMPILER__zadacha1_unscanned_D
 #############################################
 # Link the executable zadacha1
 
-build zadacha1: CXX_EXECUTABLE_LINKER__zadacha1_Debug CMakeFiles/zadacha1.dir/zadacha1.cpp.o
+build zadacha1: CXX_EXECUTABLE_LINKER__zadacha1_Debug CMakeFiles/zadacha1.dir/zadacha1.cpp.o CMakeFiles/zadacha1.dir/zadacha5.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/zadacha1.dir
   POST_BUILD = :
