@@ -2,5 +2,7 @@
 /home/kovoya/CLionProjects/chislaki/cmake-build-debug/CMakeFiles/zadacha3.dir
 /home/kovoya/CLionProjects/chislaki/cmake-build-debug/CMakeFiles/zadacha2.dir
 /home/kovoya/CLionProjects/chislaki/cmake-build-debug/CMakeFiles/zadacha4.dir
+/home/kovoya/CLionProjects/chislaki/cmake-build-debug/CMakeFiles/zadacha6.dir
+/home/kovoya/CLionProjects/chislaki/cmake-build-debug/CMakeFiles/zadacha7.dir
 /home/kovoya/CLionProjects/chislaki/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/kovoya/CLionProjects/chislaki/cmake-build-debug/CMakeFiles/rebuild_cache.dir

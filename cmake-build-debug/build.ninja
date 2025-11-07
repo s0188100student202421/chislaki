@@ -55,12 +55,6 @@ build CMakeFiles/zadacha1.dir/zadacha1.cpp.o: CXX_COMPILER__zadacha1_unscanned_D
   OBJECT_DIR = CMakeFiles/zadacha1.dir
   OBJECT_FILE_DIR = CMakeFiles/zadacha1.dir
 
-build CMakeFiles/zadacha1.dir/zadacha5.cpp.o: CXX_COMPILER__zadacha1_unscanned_Debug /home/kovoya/CLionProjects/chislaki/zadacha5.cpp || cmake_object_order_depends_target_zadacha1
-  DEP_FILE = CMakeFiles/zadacha1.dir/zadacha5.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/zadacha1.dir
-  OBJECT_FILE_DIR = CMakeFiles/zadacha1.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target zadacha1
@@ -69,7 +63,7 @@ build CMakeFiles/zadacha1.dir/zadacha5.cpp.o: CXX_COMPILER__zadacha1_unscanned_D
 #############################################
 # Link the executable zadacha1
 
-build zadacha1: CXX_EXECUTABLE_LINKER__zadacha1_Debug CMakeFiles/zadacha1.dir/zadacha1.cpp.o CMakeFiles/zadacha1.dir/zadacha5.cpp.o
+build zadacha1: CXX_EXECUTABLE_LINKER__zadacha1_Debug CMakeFiles/zadacha1.dir/zadacha1.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/zadacha1.dir
   POST_BUILD = :
@@ -170,6 +164,68 @@ build zadacha4: CXX_EXECUTABLE_LINKER__zadacha4_Debug CMakeFiles/zadacha4.dir/za
   TARGET_FILE = zadacha4
   TARGET_PDB = zadacha4.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target zadacha6
+
+
+#############################################
+# Order-only phony target for zadacha6
+
+build cmake_object_order_depends_target_zadacha6: phony || .
+
+build CMakeFiles/zadacha6.dir/zadacha6.cpp.o: CXX_COMPILER__zadacha6_unscanned_Debug /home/kovoya/CLionProjects/chislaki/zadacha6.cpp || cmake_object_order_depends_target_zadacha6
+  DEP_FILE = CMakeFiles/zadacha6.dir/zadacha6.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/zadacha6.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadacha6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadacha6
+
+
+#############################################
+# Link the executable zadacha6
+
+build zadacha6: CXX_EXECUTABLE_LINKER__zadacha6_Debug CMakeFiles/zadacha6.dir/zadacha6.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/zadacha6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadacha6
+  TARGET_PDB = zadacha6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zadacha7
+
+
+#############################################
+# Order-only phony target for zadacha7
+
+build cmake_object_order_depends_target_zadacha7: phony || .
+
+build CMakeFiles/zadacha7.dir/zadacha7.cpp.o: CXX_COMPILER__zadacha7_unscanned_Debug /home/kovoya/CLionProjects/chislaki/zadacha7.cpp || cmake_object_order_depends_target_zadacha7
+  DEP_FILE = CMakeFiles/zadacha7.dir/zadacha7.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/zadacha7.dir
+  OBJECT_FILE_DIR = CMakeFiles/zadacha7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zadacha7
+
+
+#############################################
+# Link the executable zadacha7
+
+build zadacha7: CXX_EXECUTABLE_LINKER__zadacha7_Debug CMakeFiles/zadacha7.dir/zadacha7.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/zadacha7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zadacha7
+  TARGET_PDB = zadacha7.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -204,7 +260,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/kovoya/CLionProjects/chislaki/cmake-build-debug
 
-build all: phony zadacha1 zadacha3 zadacha2 zadacha4
+build all: phony zadacha1 zadacha3 zadacha2 zadacha4 zadacha6 zadacha7
 
 # =============================================================================
 # Built-in targets

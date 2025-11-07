@@ -18,7 +18,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -36,7 +38,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -45,29 +49,43 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "zadacha1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadacha1-Debug-f878dade6c664c8de6db.json",
+					"jsonFile" : "target-zadacha1-Debug-b229711cb0c6f837070e.json",
 					"name" : "zadacha1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "zadacha2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadacha2-Debug-0b89e7a0b0679b5b512d.json",
+					"jsonFile" : "target-zadacha2-Debug-21ff39425671e6c1493a.json",
 					"name" : "zadacha2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "zadacha3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadacha3-Debug-c909c7b320303667f5b5.json",
+					"jsonFile" : "target-zadacha3-Debug-ba764f6871cffcbe6e3a.json",
 					"name" : "zadacha3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "zadacha4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zadacha4-Debug-115cbeac78b6057d27ce.json",
+					"jsonFile" : "target-zadacha4-Debug-cee35c9f2accab6992f2.json",
 					"name" : "zadacha4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadacha6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadacha6-Debug-298cbe457f7e1bdca695.json",
+					"name" : "zadacha6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zadacha7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zadacha7-Debug-750a32b352b38df62800.json",
+					"name" : "zadacha7",
 					"projectIndex" : 0
 				}
 			]
